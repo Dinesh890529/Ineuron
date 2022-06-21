@@ -1,0 +1,37 @@
+2. Demonstrate use of abstract class, multiple inheritance and decorator in
+python using examples:
+
+Abstract Class:
+******************
+
+Abstraction is the concept in object-oriented programming that is used to hide the internal functionality of the classes from the users. In this, the users are familiar with the purpose of the class's methods but they don't know how they solve the purpose, which means that they know the inputs and expected outputs, but inner working is hidden.
+
+Abstraction is implemented using the abstract classes. An abstract class in Python is typically created to declare a set of methods that must be created in any child class built on top of this abstract class. Similarly, an abstract method is one that doesn't have any implementation.
+
+Abstract methods force the child classes to give the implementation of these methods in them and thus help us achieve abstraction as each subclass can give its own implementation. A class containing more than one abstract method is called an abstract class.
+
+For example:
+we don’t know how the phone records a video by pressing the record button, we just touch/press a button and it does that. There are numerous other examples of abstraction for us to observe in the real world.
+
+
+Multiple Inheritance in Python:
+*********************************
+We can derive a class from any number of base classes. Deriving a class from more than one direct base class is called multiple inheritance.
+
+In Python a class can inherit from more than one class. If a class inherits, it has the methods and variables from the parent classes. In essence, it's called multiple inheritance because a class can inherit from multiple classes. This is a concept from object orientated programming.
+
+Multiple inheritance is useful when a subclass needs to combine multiple contracts and inherit some, or all, of the implementation of those contracts. 
+
+For example, the AmericanStudent class needs to inherit from both the Student class and the American class.
+
+Decorators in Python:
+***********************
+
+A decorator in Python is a function that takes another function as its argument, and returns yet another function . Decorators can be extremely useful as they allow the extension of an existing function, without any modification to the original function source code.
+
+Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class. Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+Example:
+When we mention the word "decorator", what enters your mind? Well, likely something that adds beauty to an existing object. An example is when we hang a picture frame to a wall to enhance the room. Decorators in Python add some feature or functionality to an existing function without altering it.
+
+
